@@ -7,6 +7,7 @@ module.exports = class extends think.Controller {
 
     constructor(ctx) {
         super(ctx);
+        this.defaultPageSize = 10;
         this.resource = this.getResource();
         this.id = this.getId();
         assert(think.isFunction(this.model), 'this.model must be a function');
