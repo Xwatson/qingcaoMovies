@@ -1,0 +1,15 @@
+{
+  "apps": [{
+    "name": "qingcaoMovies",
+    "script": "production.js",
+    "cwd": "E:\work\web\qingcaoMovies",
+    "exec_mode": "fork",
+    "max_memory_restart": "1G",
+    "autorestart": true,
+    "node_args": [],
+    "args": [],
+    "env": {
+      
+    }
+  }]
+}

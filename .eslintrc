@@ -1,0 +1,6 @@
+{
+  "extends": "think",
+  "rules": {
+    "indent": [2, 4]
+  }
+}
